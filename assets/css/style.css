@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    border: 2px solid orange;
+    margin: 25px;
+}
+
+.header {
+    background-color: #800000;
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Cinzel', Helvetica, serif;
+}
+
+.logo {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.header__text {
+    display: block;
+    color: #ffcc00 !important;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.nav {
+    background-color: yellow;
+    text-align: center;
+    display: block;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #800000;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 16px 16px;
+}
+
+.nav li:hover {
+    background-color: maroon;
+    color: yellow;
+}
+
+.nav>li.active {
+    background-color: maroon;
+    color: yellow;
+}
+
+.p_text {
+    font-size: 16px;
+    display: block;
+    position: relative;
+    margin-top: 4px;
+    text-transform: none;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.banner_button {
+    padding: 14px 28px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+    background-color: #FC6A03;
+    border-radius: 2rem;
+    border: 0.3rem solid transparent;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #800000;
+    color: yellow;
+}
+
+.banner_text {
+    margin: 0;
+    padding-left: 200px;
+    color: #FC6A03;
+    margin-top: -200px;
+}
+
+.heading {
+    margin: 0;
+    padding-left: 100px;
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading h3 {
+    font-size: 36px;
+    line-height: 60px;
+    background-color: #800000;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title {
+    margin: 0;
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title h3 {
+    font-size: 36px;
+    line-height: 60px;
+    background-color: #800000;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card {
+    border-radius: 50px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: rgb(255, 255, 0);
+    background: linear-gradient(0deg, rgba(255, 255, 0, 1) 2%, rgba(128, 0, 0, 1) 85%);
+}
+
+.card :hover {
+    opacity: .9;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 36px;
+    color: yellow;
+}
+
+.card-image img {
+    width: 400px;
+}
+
+svg {
+    margin-bottom: -25px;
+}
+
+.mission,
+.vision {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px;
+    color: #800000;
+}
+
+.mission ol {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.right_side {
+    margin-right: 20px;
+}
+
+.banner_img {
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.banner_text h3 {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.banner_text h3::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    display: inline-block;
+    background: #FC6A03;
+    margin: 4px 10px;
+}
+
+.banner_text h3>span {
+    font-size: 60px;
+    color: #800000;
+}
+
+.banner_text h5 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.banner_text p {
+    text-align: justify;
+}
+
+.banner_img img {
+    width: 500px;
+    margin-left: 80px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+    margin-bottom: -100px;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+    color: yellow;
+}
+
+.contact {
+    margin-left: 400px;
+    display: block;
+    margin-top: -20px;
+}
+
+.contact h3 {
+    color: yellow;
+    font-size: 32px;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact a:hover {
+    color: darkgreen;
+}
+
+.container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+    .col {
+        width: 100%;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .header__text {
+        margin-top: 10px;
+    }
+    .banner_img {
+        margin-top: 20px;
+    }
+    .banner_img img {
+        width: 300px;
+    }
+    .banner_text {
+        padding: 50px;
+        color: #FC6A03;
+        margin-top: 20px;
+    }
+    .nav li {
+        padding: 10px;
+    }
+    .nav a {
+        color: inherit;
+        padding: 0;
+    }
+    .heading {
+        padding: 50px;
+        color: yellow;
+        margin-top: 10px;
+        text-transform: none;
+    }
+    .desktop_ms {
+        display: none;
+    }
+    .footer {
+        margin-top: -100px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .contact {
+        display: none;
+    }
+    .banner_text h3::after {
+        width: 25px;
+    }
+    .mission,
+    .vision {
+        padding: 5px;
+    }
+    .title {
+        margin: 50px;
+        padding: 10px;
+    }
+    .card {
+        border-radius: 50px;
+        height: 300px;
+        margin-bottom: 50px;
+        padding: 20px;
+        background: rgb(255, 255, 0);
+        background: linear-gradient(0deg, rgba(255, 255, 0, 1) 2%, rgba(128, 0, 0, 1) 85%);
+    }
+    .card-image img {
+        width: 200px;
+    }
+    .header__text {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    svg {
+        margin-bottom: -5px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .mobile_ms {
+        display: none;
+    }
+    .banner_text {
+        margin-bottom: 5rem;
+    }
+}
