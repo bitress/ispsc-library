@@ -72,12 +72,9 @@ hr {
 .p_text {
     font-size: 16px;
     display: block;
-    position: relative;
-    margin-top: 4px;
     text-transform: none;
     padding-top: 5px;
     margin: 0;
-    text-align: center;
 }
 
 .banner_button {
