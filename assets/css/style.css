@@ -77,6 +77,11 @@ hr {
     margin: 0;
 }
 
+.p_text a {
+    text-decoration: none;
+    color: yellow;
+}
+
 .banner_button {
     padding: 14px 28px;
     font-weight: 700;
